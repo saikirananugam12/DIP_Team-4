@@ -57,7 +57,7 @@ Follow these steps to set up the environment:
 
 1. Create a virtual environment:
    ```bash
-**   python -m venv venv**
+    python -m venv venv
 
 2.Activate the virtual environment:
 
