@@ -62,15 +62,18 @@ Follow these steps to set up the environment:
 2.Activate the virtual environment:
 
 On Linux/Mac:
+
 **source venv/bin/activate**
 
 On Windows:
 **.\venv\Scripts\activate**
 
 3.Install dependencies:
+```bash
 **pip install -r requirements.txt**
+```
 
-**Usage**
+4. **Usage**
 Notebooks
 a.FaceRecognition_EfficientNetB0.ipynb: Training and evaluation using EfficientNetB0.
 b.Face_Recognition_Multi_task_CNN_model.ipynb: Multi-task CNN model for age, gender, and race prediction.
