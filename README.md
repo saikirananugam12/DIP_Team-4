@@ -4,7 +4,15 @@
 3. Data cleaning and class encoding: Filtered and Encoded Dataset for Balanced Analysis
 4. Model Training
      a.EfficientNetB0 : FaceRecognition_EfficientNetB0.ipynb
-     b.MobileNetV2 : Face_recognition_MobileNetV2.ipynb
-     c.InceptionV3 :
+
+
+    b.MobileNetV2 : Face_recognition_MobileNetV2.ipynb
+
+
+    c.InceptionV3 :
+
+
      d.vgg16 : VGG16.ipynb
+
+
      e.CNN : Face_Recognition_Multi_task_CNN_model.ipynb
