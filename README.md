@@ -79,7 +79,7 @@ On Windows:
 pip install -r requirements.txt
 ```
 
-##. **Usage**
+## **Usage**
 
 Notebooks
 
