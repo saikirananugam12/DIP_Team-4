@@ -106,13 +106,15 @@ MobileNetV2	   74%	   42%	            45%
 VGG16	         73%	   40%	            42%
 InceptionV3	   65%	   38%	            36%
 
-**Challenges and Future Work
-**
+**Challenges and Future Work**
+
 Challenges
+
 Class Imbalance: Race predictions suffered from underrepresented classes.
 Overfitting: Particularly in age and race predictions.
 
 Future Work
+
 Expand dataset size for better generalization.
 Explore advanced architectures like Vision Transformers.
 Incorporate advanced bias mitigation strategies.
@@ -121,9 +123,13 @@ Contributors
 This project was developed by Group 4 as part of the EDS 6397 course in Fall 2024:
 
 Bala Srimani Durga Devi Chikkala
+
 Saikiran Anugam
+
 Vishnu Vardhan Mullapudi
+
 Azharmadani Syed
+
 Sunil Kumar Kommineni
 
 
