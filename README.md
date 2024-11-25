@@ -81,18 +81,27 @@ pip install -r requirements.txt
 
 4. **Usage**
 Notebooks
+
 a.FaceRecognition_EfficientNetB0.ipynb: Training and evaluation using EfficientNetB0.
+
 b.Face_Recognition_Multi_task_CNN_model.ipynb: Multi-task CNN model for age, gender, and race prediction.
+
 c.Face_recognition_MobileNetV2.ipynb: Implementation of MobileNetV2.
+
 d.Filtered and Encoded Dataset for Balanced Analysis.ipynb: Data preprocessing and balancing.
+
 e.VGG16.ipynb: Training and evaluation using VGG16.
 
 **Python Application**
-app3.py: A user-friendly application for real-time predictions. Upload an image or video to get predictions for age, gender, and race.
 
-Steps to Run
+app3.py:
+A user-friendly application for real-time predictions. Upload an image or video to get predictions for age, gender, and race.
+
+**Steps to Run**
 Prepare the dataset (e.g., fairface_filtered_10000.csv).
+
 Open and execute the desired notebook for training or inference.
+
 Use app3.py for real-time attribute detection.
 
 
@@ -100,10 +109,15 @@ Results
 EfficientNetB0 outperformed other models:
 
 Model	Gender Accuracy	Age Accuracy	Race Accuracy
+
 EfficientNetB0	85%	   74%	            76%
+
 ResNet50	      75%	   53%               61%
+
 MobileNetV2	   74%	   42%	            45%
+
 VGG16	         73%	   40%	            42%
+
 InceptionV3	   65%	   38%	            36%
 
 **Challenges and Future Work**
@@ -111,15 +125,18 @@ InceptionV3	   65%	   38%	            36%
 Challenges
 
 Class Imbalance: Race predictions suffered from underrepresented classes.
+
 Overfitting: Particularly in age and race predictions.
 
 Future Work
 
 Expand dataset size for better generalization.
+
 Explore advanced architectures like Vision Transformers.
+
 Incorporate advanced bias mitigation strategies.
 
-Contributors
+**Contributors**
 This project was developed by Group 4 as part of the EDS 6397 course in Fall 2024:
 
 Bala Srimani Durga Devi Chikkala
