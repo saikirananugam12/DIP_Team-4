@@ -1,4 +1,5 @@
 # Advanced Face Recognition and Bias Mitigation
+# GROUP-4
 
 This project focuses on developing a fairness-aware face recognition system capable of predicting age, gender, and race attributes from facial images. By leveraging advanced deep learning models and the FairFace dataset, this project addresses bias and ensures equitable performance across diverse demographic groups.
 
@@ -30,7 +31,8 @@ The **FairFace** dataset is used to ensure inclusivity, comprising over 100,000 
 - Multiple age brackets
 - Binary gender categories
 
-For computational feasibility, a subset of 8,000 images with an 80-20 train-test split was used.
+For computational feasibility, a subset of 8,000 images with an 80-20 train-test split was used. 
+Link to Filtered Dataset: https://drive.google.com/drive/folders/1x9S6F6O2iVwEP4sgy5DdrrWWD5ak2gRC?usp=sharing
 
 ## Preprocessing
 
@@ -62,15 +64,19 @@ Follow these steps to set up the environment:
 2.Activate the virtual environment:
 
 On Linux/Mac:
+```bash
 
-**source venv/bin/activate**
+source venv/bin/activate
+```
 
 On Windows:
-**.\venv\Scripts\activate**
+```bash
+\venv\Scripts\activate
+```
 
 3.Install dependencies:
 ```bash
-**pip install -r requirements.txt**
+pip install -r requirements.txt
 ```
 
 4. **Usage**
@@ -121,30 +127,6 @@ Azharmadani Syed
 Sunil Kumar Kommineni
 
 
-
-
-
-# DIP_Team-4
-
-File Summary:
-1. Dataset: fairface_filtered_1000
-2. Link to Images: https://drive.google.com/drive/folders/1x9S6F6O2iVwEP4sgy5DdrrWWD5ak2gRC?usp=sharing
-3. Data cleaning and class encoding: Filtered and Encoded Dataset for Balanced Analysis.ipynb
-4. Model Training
-
-   a.EfficientNetB0 : FaceRecognition_EfficientNetB0.ipynb
-
-
-    b.MobileNetV2 : Face_recognition_MobileNetV2.ipynb
-
-
-    c.InceptionV3 :
-
-
-    d.vgg16 : VGG16.ipynb
-
-
-    e.CNN : Face_Recognition_Multi_task_CNN_model.ipynb
 
 
 
