@@ -20,5 +20,5 @@ File Summary:
 
     e.CNN : Face_Recognition_Multi_task_CNN_model.ipynb
 
-Workflow: 
+
 
