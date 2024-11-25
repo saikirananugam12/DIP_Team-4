@@ -79,7 +79,7 @@ On Windows:
 pip install -r requirements.txt
 ```
 
-4. **Usage**
+##. **Usage**
 Notebooks
 
 a.FaceRecognition_EfficientNetB0.ipynb: Training and evaluation using EfficientNetB0.
@@ -92,7 +92,7 @@ d.Filtered and Encoded Dataset for Balanced Analysis.ipynb: Data preprocessing a
 
 e.VGG16.ipynb: Training and evaluation using VGG16.
 
-**Python Application**
+## **Python Application**
 
 app3.py:
 A user-friendly application for real-time predictions. Upload an image or video to get predictions for age, gender, and race.
@@ -105,7 +105,7 @@ Open and execute the desired notebook for training or inference.
 Use app3.py for real-time attribute detection.
 
 
-Results
+## Results
 EfficientNetB0 outperformed other models:
 
 Model	Gender Accuracy	Age Accuracy	Race Accuracy
@@ -120,7 +120,7 @@ VGG16	         73%	   40%	            42%
 
 InceptionV3	   65%	   38%	            36%
 
-**Challenges and Future Work**
+## **Challenges and Future Work**
 
 Challenges
 
@@ -136,7 +136,7 @@ Explore advanced architectures like Vision Transformers.
 
 Incorporate advanced bias mitigation strategies.
 
-**Contributors**
+## **Contributors**
 This project was developed by Group 4 as part of the EDS 6397 course in Fall 2024:
 
 Bala Srimani Durga Devi Chikkala
